@@ -1,10 +1,10 @@
 # [level 0] 중앙값 구하기 - 120811 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120811) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120811?language=python3) 
 
 ### 성능 요약
 
-메모리: 33.5 MB, 시간: 0.06 ms
+메모리: 27.6 MB, 시간: 1.08 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 07월 20일 15:29:46
+2025년 10월 06일 21:00:00
 
 ### 문제 설명
 
