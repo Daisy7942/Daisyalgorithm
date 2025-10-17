@@ -1,3 +1,8 @@
 def solution(numbers, k):
-    index = (2 * (k - 1)) % len(numbers)
-    return numbers[index]
+    idx = 0
+    for i in range(1, k) :
+        idx = idx+2
+        if idx >= len(numbers):
+            idx = idx-len(numbers)    
+            
+    return numbers[idx]
