@@ -1,12 +1,12 @@
 def solution(dot):
-    x, y = dot  
-    
-    if x > 0 and y > 0:
-        return 1 
-    elif x < 0 and y > 0:
-        return 2
-    elif x < 0 and y < 0:
-        return 3  
-    else:
-        return 4  
-
+    answer = 0
+    x, y = dot
+    if x > 0 and y > 0 :
+        answer = 1
+    elif x > 0 and y < 0 :
+        answer = 4
+    elif x < 0 and y > 0 :
+        answer = 2
+    elif x < 0 and y < 0 :
+        answer = 3
+    return answer
