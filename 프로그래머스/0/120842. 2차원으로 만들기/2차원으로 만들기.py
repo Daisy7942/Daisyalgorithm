@@ -1,5 +1,9 @@
 def solution(num_list, n):
-    result = []
-    for i in range(0, len(num_list), n):
-        result.append(num_list[i:i+n])
-    return result
+    answer = []
+    arr = [];
+    for i in num_list :
+        arr.append(i)
+        if len(arr)==n :
+            answer.append(arr)
+            arr = []
+    return answer
