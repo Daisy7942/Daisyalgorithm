@@ -1,4 +1,4 @@
-s = input() 
-
-for ch in s:
-    print(ch)
+str = input()
+for i in str :
+ print (i)
+ 
