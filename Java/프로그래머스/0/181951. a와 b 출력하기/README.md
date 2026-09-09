@@ -2,7 +2,7 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181951) 
 
-#  내가 착각한 것
+###  내가 착각한 것
 처음 \n 으로 했어야했는데 /n으로 해서 계속 답이 틀렸었음. 
 
 ### 성능 요약
