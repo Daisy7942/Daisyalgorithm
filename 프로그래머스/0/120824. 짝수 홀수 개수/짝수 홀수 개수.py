@@ -1,11 +1,8 @@
 def solution(num_list):
-    answer = []
-    count1 = 0
-    count2 = 0
-    for i in num_list:
-        if i % 2 == 0:
-            count1 += 1
-        else :
-            count2 += 1
-    answer = count1, count2
+    answer = [0, 0]
+    for i in range(len(num_list)):
+        if(num_list[i]%2==0):
+            answer[0]+=1
+        else:
+            answer[1]+=1
     return answer
