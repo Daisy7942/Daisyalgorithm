@@ -1,4 +1,5 @@
 import numpy as np
-
 def solution(numbers):
-    return np.mean(numbers)
+    answer = 0
+    answer = np.mean(numbers)
+    return answer
