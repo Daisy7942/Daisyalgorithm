@@ -1,2 +1,4 @@
 def solution(num_list, n):
-    return num_list[n-1:]
+    answer = []
+    answer.append(num_list[n-1:])
+    return answer.pop()
